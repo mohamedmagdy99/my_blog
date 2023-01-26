@@ -14,7 +14,8 @@ SECRET_KEY = 'django-insecure-$008n%wha@zs(rso=(unbi5a#zvi+-04jqy8q)_0(gpx43c3t3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://localhost:3000/',
+                '127.0.0.1']
 
 
 # Application definition
@@ -28,9 +29,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog_apis.apps.BlogApisConfig',
     'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -105,10 +108,13 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
-
+PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
 STATIC_URL = 'static/'
 MEDIA_URL= '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+CORS_ORIGIN_ALLOW_ALL=True
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
