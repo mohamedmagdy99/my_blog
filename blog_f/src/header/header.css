@@ -1,0 +1,74 @@
+body {
+       background-image: url(./banner.jpg);
+       background-repeat: no-repeat;
+       
+}
+.Pimage{
+       display: flex;
+       justify-content: space-around;
+       flex-flow: column;
+       flex-wrap: wrap;
+       align-items: center;
+       margin-top: 6%;
+}
+.Pimage img{
+
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+
+}
+.Pimage h1{
+       flex-grow: 1;
+       font-family: 'Unbounded', cursive;
+       background: -webkit-linear-gradient(#00B4DB,#0083b0);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+.Pimage p{
+       flex-grow: 1;
+       font-family: 'Caveat', cursive;
+       color: bisque;
+       font-size: 20px;
+}
+.contact{
+       size: 50px;
+}
+.contact a{
+       margin: 20px;
+       text-decoration: none;
+       
+}
+.twitter{
+       border: 0.5px white solid;
+       border-radius: 50%;
+       padding: 12px;
+       transition: transform .2s;
+}
+.twitter:hover{
+       border-color: #00B4DB;
+       color: #00B4DB;
+       transform: scale(1.3);
+}
+.linkedin{
+       border: 0.5px white solid;
+       border-radius: 50%;
+       padding: 12px;
+       transition: transform .2s;
+}
+.linkedin:hover{
+       border-color: #00A0DC;
+       color: #00A0DC;
+       transform: scale(1.3);
+}
+.github{
+       border: 0.5px white solid;
+       border-radius: 50%;
+       padding: 12px;
+       transition: transform .2s;
+}
+.github:hover{
+       border-color: #171515;
+       color: #171515;
+       transform: scale(1.3);
+}
