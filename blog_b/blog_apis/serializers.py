@@ -4,4 +4,4 @@ from blog_apis.models import *
 class PersonalImageSerializer(serializers.ModelSerializer):
     class Meta:
         model=PersonalImage
-        fields=['image']
+        fields=['image','id']
