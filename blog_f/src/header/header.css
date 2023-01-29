@@ -5,14 +5,14 @@ body {
 }
 .Pimage{
        display: flex;
-       justify-content: space-around;
+       justify-content: center;
        flex-flow: column;
        flex-wrap: wrap;
        align-items: center;
        margin-top: 6%;
 }
 .Pimage img{
-
+       margin: auto;
        width: 200px;
        height: 200px;
        border-radius: 50%;
@@ -30,9 +30,6 @@ body {
        font-family: 'Caveat', cursive;
        color: bisque;
        font-size: 20px;
-}
-.contact{
-       size: 50px;
 }
 .contact a{
        margin: 20px;
