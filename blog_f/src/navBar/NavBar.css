@@ -9,21 +9,46 @@
 }
 .NavBar li{
        transition: transform .2s;
-      margin-left: 100px;
+       margin-left: 100px;
 
 }
 .NavBar a{
        text-decoration: none;
        color: white;
        font-size: 25px;
+       padding-bottom: 10px;
+       padding:10px;
 }
 .NavBar li:hover{
        transform: scale(1.3);
 }
-.NavBar a:active{
-       color: red;
+.aboutMe:active{
+       color: #eee;
+       background-color: #e97770 ;
 }
-.NavBar a[tabindex]:focus {
-       color:red;
+.aboutMe[tabindex]:focus {
+       color: #eee;
+       background-color: #e97770 ;
        outline: none;
+       border-radius: 5px;
+   }
+.blog:active{
+       color: #594a4e;
+       background-color: #faeee7 ;
+}
+.blog[tabindex]:focus {
+       color: #594a4e;
+       background-color: #faeee7 ;
+       outline: none;
+       border-radius: 5px;
+   }
+.resume:active{
+       color: #004643;
+       background-color: #abd1c6 ;
+}
+.resume[tabindex]:focus {
+       color: #004643;
+       background-color:#abd1c6 ;
+       outline: none;
+       border-radius: 5px;
    }
