@@ -3,6 +3,7 @@ import axios from "axios";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import './header.css';
+import NavBar from "../navBar/NavBar";
 const Header = () => {
   const [data, setDate]= useState(null);  
   const [loading, setLoading]= useState(true);
@@ -39,6 +40,7 @@ const Header = () => {
             <a href="https://www.linkedin.com/in/mohamed-magdy-ab7438188/"><FontAwesomeIcon icon={faLinkedinIn} size="2x" inverse className="linkedin"/></a>
             <a href="https://github.com/mohamedmagdy99"><FontAwesomeIcon icon={faGithub} size="2x"  inverse className="github"/></a>
           </div>
+          <NavBar />
         </div>
       )) }
     </div>
