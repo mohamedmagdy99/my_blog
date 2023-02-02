@@ -32,7 +32,7 @@ const Header = () => {
       )}
       {data && data.map(({id, image})=>(
         <div className="Pimage">
-          <img src={image} key={id} alt="personal image"/>
+          <img src={image} key={id} alt="personal"/>
           <h1>Mohamed Magdy</h1>
           <p>Software engineer . Web development . Senior computer science student</p>
           <div className="contact">

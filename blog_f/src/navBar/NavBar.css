@@ -10,9 +10,25 @@
 .NavBar li{
        transition: transform .2s;
        margin-left: 100px;
+       text-decoration: none;
+
 
 }
-.NavBar a{
+.aboutMe{
+       text-decoration: none;
+       color: white;
+       font-size: 25px;
+       padding-bottom: 10px;
+       padding:10px;
+}
+.blog{
+       text-decoration: none;
+       color: white;
+       font-size: 25px;
+       padding-bottom: 10px;
+       padding:10px;
+}
+.resume{
        text-decoration: none;
        color: white;
        font-size: 25px;

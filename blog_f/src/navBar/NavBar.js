@@ -1,4 +1,5 @@
 import "./NavBar.css"
+import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressCard , faBlog, faFile} from '@fortawesome/free-solid-svg-icons'
 
@@ -6,21 +7,21 @@ const NavBar = () => {
        return ( 
               <div className="NavBar">
                      <nav>
-                            <ul>
+                            <ul >
                                    <li>
-                                          <a href="#" className="aboutMe" tabIndex="1">
+                                          <Link to="/about" className="aboutMe" tabIndex="1" activeClassName='is-active'>
                                                  <FontAwesomeIcon icon={faAddressCard} size="1x"/> About Me
-                                          </a>
+                                          </Link>
                                    </li>
                                    <li>
-                                          <a href="#" className="blog" tabIndex="1">
+                                          <Link to="/blog" className="blog" tabIndex="1">
                                                  <FontAwesomeIcon icon={faBlog} size="1x"/> Blog
-                                          </a>
+                                          </Link>
                                    </li>
                                    <li>
-                                          <a href="#" className="resume" tabIndex="1">
+                                          <Link to="/resume" className="resume" tabIndex="1">
                                                  <FontAwesomeIcon icon={faFile} size="1x"/> Resume
-                                          </a>
+                                          </Link>
                                    </li>
                             </ul>
                      </nav>
