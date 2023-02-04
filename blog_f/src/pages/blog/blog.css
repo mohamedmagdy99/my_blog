@@ -1,0 +1,74 @@
+.BlogList{
+       color:#594a4e;
+       margin: -8px;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 2rem;
+       background: #faeee7;
+
+}
+.BlogContainer {
+       display: flex;
+       flex-flow: row wrap;
+       flex-wrap: wrap;
+       justify-content: center;
+}
+.blog_post {
+       background: #fff;
+
+       border-radius: 10px;
+       box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+       position: relative;
+       margin: 50px;
+     }
+.container_copy {
+       padding: 6rem 4rem 5rem 4rem;
+     }
+     
+.img_pod {
+       height: 110px;
+       width: 110px;
+       z-index: 10;
+       box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+       border-radius: 100%;
+       position: absolute;
+       left: -10%;
+       top: -13%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+     
+.img_pod img {
+       height: 8.3rem;
+       width: 8.3rem;
+       position: relative;
+       border-radius: 100%;
+       box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+       z-index: 1;
+     }
+     
+.container_copy h3 {
+       margin: 0 0 0.5rem 0;
+       color: #999;
+       font-size: 1.25rem;
+     }
+     
+.container_copy h1 {
+       margin: 0 0 1rem 0;
+       font-size: 2.5rem;
+       letter-spacing: 0.5px;
+       color: #333;
+     }
+.container_copy p {
+       margin: 0 0 4.5rem 0;
+       font-size: 1.5rem;
+       line-height: 1.45;
+       color: #333;
+     }
+.BlogLink {
+       text-decoration: none;
+
+}
