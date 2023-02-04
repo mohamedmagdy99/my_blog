@@ -3,3 +3,4 @@ from . import models
 
 admin.site.register(models.PersonalImage)
 admin.site.register(models.Tech)
+admin.site.register(models.BlogPost)

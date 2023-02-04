@@ -7,3 +7,7 @@ class PersonalImageList(viewsets.ModelViewSet):
 class TechList(viewsets.ModelViewSet):
     serializer_class=TechSerializer
     queryset=Tech.objects.all()
+
+class BlogPostList(viewsets.ModelViewSet):
+    serializer_class=BlogPostSerializer
+    queryset=BlogPost.objects.all()

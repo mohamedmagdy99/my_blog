@@ -10,3 +10,7 @@ class TechSerializer(serializers.ModelSerializer):
     class Meta:
         model=Tech
         fields=['name', 'icon']
+class BlogPostSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=BlogPost
+        fields=['title','publisher','body','created_at','image','about','id']
