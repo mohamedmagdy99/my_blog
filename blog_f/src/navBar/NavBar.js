@@ -9,7 +9,7 @@ const NavBar = () => {
                      <nav>
                             <ul >
                                    <li>
-                                          <Link to="/about" className="aboutMe" tabIndex="1" activeClassName='is-active'>
+                                          <Link to="/about" className="aboutMe" tabIndex="1" >
                                                  <FontAwesomeIcon icon={faAddressCard} size="1x"/> About Me
                                           </Link>
                                    </li>

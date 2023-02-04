@@ -6,5 +6,7 @@ router =routers.DefaultRouter()
 
 router.register(r'Image',
                 views.PersonalImageList, basename='Image')
+router.register(r'Tech',
+                views.TechList, basename='Tech')
 
 urlpatterns = router.urls

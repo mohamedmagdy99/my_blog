@@ -5,3 +5,8 @@ class PersonalImageSerializer(serializers.ModelSerializer):
     class Meta:
         model=PersonalImage
         fields=['image','id']
+
+class TechSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=Tech
+        fields=['name', 'icon']
