@@ -19,7 +19,7 @@ const NavBar = () => {
                                           </Link>
                                    </li>
                                    <li>
-                                          <Link to="/resume" className="resume" tabIndex="1">
+                                          <Link to="https://docs.google.com/document/d/1nEYcRjcCAT5mUiGIZhXtuEFU13pSy__e6nojqyVAeto/edit?usp=sharing" className="resume" tabIndex="1">
                                                  <FontAwesomeIcon icon={faFile} size="1x"/> Resume
                                           </Link>
                                    </li>
