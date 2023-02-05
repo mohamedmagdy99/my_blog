@@ -31,8 +31,8 @@ const Header = () => {
         <div>{`There is a problem fetching the personal image - ${error}`}</div>
       )}
       {data && data.map(({id, image})=>(
-        <div className="Pimage">
-          <img src={image} key={id} alt="personal"/>
+        <div className="Pimage" key={id}>
+          <img src={image}  alt="personal"/>
           <h1>Mohamed Magdy</h1>
           <p>Software engineer . Web development . Senior computer science student</p>
           <div className="contact">
