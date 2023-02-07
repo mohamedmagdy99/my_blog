@@ -42,12 +42,13 @@
        color: #eee;
        background-color: #e97770 ;
 }
-.aboutMe[tabindex]:focus {
+.aboutMe[tabindex]:focus{
        color: #eee;
        background-color: #e97770 ;
        outline: none;
        border-radius: 5px;
    }
+
 .blog:active{
        color: #594a4e;
        background-color: #faeee7 ;

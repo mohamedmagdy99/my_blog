@@ -21,7 +21,7 @@ const BlogDetails = () => {
            }
          };
          getDate();
-       },[]);
+       },[id]);
        return ( 
               <div className="BlogDetails">
                      {loading && <div>Loading....</div>}
